@@ -1,0 +1,1 @@
+# (booleans, integers, floats, strings, and tuples) are immutable

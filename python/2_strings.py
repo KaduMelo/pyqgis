@@ -1,33 +1,4 @@
-# COMEÇANDO A EXPLICAR INT
-# Explicar o método print
-# Declaração de uma variável do tipo int
-numero_int = 3
-print(type(numero_int))
-
-print(numero_int)
-print(id(numero_int))
-
-# Somando com a variável
-print(numero_int + 3)
-
-# Variável continua com o mesmo valor
-print(numero_int)
-print(id(numero_int))
-
-# Agora se somar colocando na mesma variável numero_int
-numero_int = 3 + 3
-print(numero_int)
-print(id(numero_int))
-
-# COMEÇANDO A EXPLICAR FLOAT
-# Declaração de uma variável do tipo float
-numero_float = 0.3
-print(numero_float + numero_int)
-
-# Declaração de uma variável do tipo complex
-numero_complexo = 3.14j
-print(type(numero_complexo))
-
+# Immutable
 # Declaração de uma variável do tipo String
 # String são uma sequencia de caracteres, que pode entender como array
 nome = "Kadu"
@@ -99,6 +70,13 @@ b = "World"
 c = a + " " + b
 print(c)
 
+# Multiline Strings
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+
 # String Format
 age = 29
 txt = "My name is Kadu, and I am {}"
@@ -122,3 +100,5 @@ txt = "We are the so-called \"Vikings\" from the north."
 print(txt)
 
 # https://docs.python.org/2.5/lib/string-methods.html
+
+# (booleans, integers, floats, strings, and tuples) are immutable
