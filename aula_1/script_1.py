@@ -1,3 +1,24 @@
+# Abrir uma camada vetorial
+# Selecionando camada ativa
+# Listar os campos da camada
+# Filtrar por uma ou mais feições
+# Salvando o projeto
+
+# Abrir um arquivo GEOPACKAGE
+# Listar camadas do GEOPACKAGE
+
+# Trabalhando com RASTERS
+# Buscando dados do raster
+
+# Carregar un projeto já existente
+# Adicionando camada raster
+
+# Executando algoritmos do Processing
+#  vamos entender a criação de poligonos usando PyQgis.
+
+# Criando Atributos em poligonos
+
+
 # Carregando um dado vetorial
 iface.addVectorLayer("/path_to_livepyqgis/dados/bcim_2016_21_11_2018.gpkg|layername=lim_unidade_federacao_a", "Estados Brasil", "ogr")
 # atribuindo a camada ativa a um objeto

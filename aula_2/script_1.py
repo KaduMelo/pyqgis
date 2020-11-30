@@ -1,5 +1,5 @@
 import os
-from pprint import pprint
+from pprint import pprint # perfumaria
 diretorio = 'path_to_livepyqgis'
 
 # Dicionarios

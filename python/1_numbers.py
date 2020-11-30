@@ -41,7 +41,7 @@ z = int("3") # z will be 3
 print(z)
 
 # Use the float()
-x = float(1)     # x will be 1.0
+x = float(1)     # x will be 1.0 
 print(x)
 
 y = float(2.8)   # y will be 2.8

@@ -72,3 +72,27 @@ def tri_recursion(k):
 
 print("\n\nRecursion Example Results")
 tri_recursion(6)
+
+def imprimir_lista(A):
+  for i in range(0,len(A)):
+    print A[i]
+
+def somar_elementos(lista):
+  soma = 0
+  for elemento in lista:
+    soma = soma + elemento
+  return soma
+
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+print(car.keys())
+print("Chaves:", car.keys(), "Valores:", car.values(, end="\n"))
+
+for key, value in car.items():
+	print(key, ' : ', value)
+
+# http://professor.ufabc.edu.br/~jesus.mena/courses/pi-1q-2013/caderno-de-exercicios-pi-em-python.pdf

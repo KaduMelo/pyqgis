@@ -134,5 +134,5 @@ def runTask(iface, sourcePath, pathFile):
     QgsApplication.taskManager().addTask( task )
 
 
-#run( iface, '/home/lmotta/work', '/home/lmotta/work/desc-files.csv' )
-#runTask( iface, '/home/lmotta/work', '/home/lmotta/work/desc-files.csv' )
+#run( iface, 'D:/Users/Dell/Downloads', 'D:/Users/Dell/Downloads/teste/desc-files.csv' )
+#runTask( iface, 'D:/Users/Dell/Downloads', 'D:/Users/Dell/Downloads/teste/desc-files.csv' )
