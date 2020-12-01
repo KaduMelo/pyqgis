@@ -1,5 +1,5 @@
-@qgisfunction(group='MPF 2020')
+@qgsfunction(args='auto', group='Custom')
 def showValues(feature, parent):
     names = feature.fields().names()
-    values = '\n'.join([ "{}".fomat(n, feature[n]) for n in names ])
-    return "# MPF #\n{values}"
+    values = '\n'.join([ "{} : {}".format(n, feature[n]) for n in names ])
+    return "# MPF #\n{}".format(values)
