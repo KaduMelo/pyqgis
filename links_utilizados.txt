@@ -1,0 +1,4 @@
+https://docs.qgis.org/3.16/en/docs/pyqgis_developer_cookbook/intro.html
+https://courses.spatialthoughts.com/pyqgis-in-a-day.html#writing-standalone-python-scripts
+https://www.alura.com.br/curso-online-geopandas-dados-geoespaciais
+https://www.alura.com.br/conteudo/geopandas-dados-geoespaciais
