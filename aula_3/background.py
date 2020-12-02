@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-__author__ = 'Luiz Motta'
-__date__ = '2019-12-14'
-__copyright__ = '(C) 2019, Luiz Motta'
-__revision__ = '$Format:%H$'
-
 import sys, os, pathlib
 
 from qgis.PyQt.QtCore import QObject, pyqtSignal
